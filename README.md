@@ -6,6 +6,15 @@ Planning repository for a sequential task queuing system for Claude Code and oth
 
 This is a placeholder repository for gathering notes, requirements, and specifications as I explore building (or finding) tooling to solve a specific workflow problem.
 
+## Planning Materials
+
+The [planning/](planning/) folder contains:
+- **[notes.mp3](planning/notes.mp3)** - Original voice notes capturing the vision and requirements
+- **[verbatim-transcript.md](planning/verbatim-transcript.md)** - Raw transcription of the audio
+- **[cleaned-transcript.md](planning/cleaned-transcript.md)** - Edited transcript with structure
+
+I deliberately commit audio alongside transcripts as part of my workflow - anyone can listen to the original thinking and then read the derived specification.
+
 ## The Problem
 
 When using AI coding assistants on multi-task projects, context window exhaustion and manual task handoff create friction. Parallel worker approaches (Git worktrees, multiple agents) introduce merge conflicts and rate limiting issues.
